@@ -4,7 +4,6 @@ import { GlobalStyle } from './GlobalStyle';
 import { InvoiceDetails } from './InvoiceDetails';
 import { Invoices } from './Invoices';
 import { Layout } from './Layout';
-// import './index.css';
 
 export const App = () => {
   return (
