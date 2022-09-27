@@ -1,13 +1,13 @@
 import { lazy } from 'react';
-import CustomerDetails from 'pages1/CustomerDetails';
+import CustomerDetails from 'pages/CustomerDetails';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { GlobalStyle } from './GlobalStyle';
 import { InvoiceDetails } from './InvoiceDetails';
 import { Invoices } from './Invoices';
 import { Layout } from './Layout';
 
-const Sales = lazy(() => import('../pages1/Sales'));
-const Customers = lazy(() => import('../pages1/Customers'));
+const Sales = lazy(() => import('../pages/Sales'));
+const Customers = lazy(() => import('../pages/Customers'));
 
 export const App = () => {
   return (
